@@ -20,7 +20,7 @@ export default function App() {
     { roza: 6, date: "2026-02-24", sehri: "05:31", iftar: "18:36" },
     { roza: 7, date: "2026-02-25", sehri: "05:29", iftar: "18:36" },
     { roza: 8, date: "2026-02-26", sehri: "05:29", iftar: "18:36" },
-    { roza: 9, date: "2026-02-27", sehri: "05:28", iftar: "18:37" },
+    { roza: 9, date: "2026-02-27", sehri: "05:28", iftar: "18:36" },
     { roza: 10, date: "2026-02-28", sehri: "05:28", iftar: "18:37" },
     { roza: 11, date: "2026-03-01", sehri: "05:27", iftar: "18:37" },
 { roza: 12, date: "2026-03-02", sehri: "05:25", iftar: "18:37" },
@@ -237,9 +237,9 @@ export default function App() {
 </div>
 
       <footer className="mt-20 text-center py-12 bg-black/60">
-        <p className="text-green-400 text-lg">
+        {/* <p className="text-green-400 text-lg">
           👥 Visitors: {visits}
-        </p>
+        </p> */}
 
         <p className="mt-4">📧 azamp442@gmail.com</p>
 
